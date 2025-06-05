@@ -1,0 +1,30 @@
+---
+import { Image, getImage } from 'astro:assets';
+import { CarouselOrientationDemo } from './CarouselOrientation.tsx';
+import "../styles/global.css";
+
+// imports all files that end with `.jpg` in `./src/assets/images/`
+const matches = import.meta.glob('../assets/images/*.jpg', { eager: true });
+const images = Object.values(matches);
+
+// Pre-optimize all images
+const catImages = await Promise.all(
+  images.map(async (imageModule, index) => {
+    const optimizedImage = await getImage({
+      src: imageModule.default,
+      width: 300,
+      height: 300,
+      format: 'webp' // optional: convert to webp for better performance
+    });
+    
+    return {
+      src: optimizedImage.src,
+      alt: `Cat photo ${index + 1}`
+    };
+  })
+);
+---
+
+<div class="flex justify-center items-center">
+    <CarouselOrientationDemo catImages={catImages} client:only="react" />
+</div>
