@@ -27,7 +27,7 @@ export function CarouselOrientationDemo({ catImages }: Props) {
         >
             <CarouselContent className="mt-6 h-[50vh] mb-10">
                 {catImages.map((image, index) => (
-                    <CarouselItem key={index} className=" pt-1 md:basis-1/2">
+                    <CarouselItem key={index} className="pt-1 md:basis-1/2 mt-1 mb-1">
                         <div>
                             <Card className="bg-blue-100">
                                 <CardContent className="flex aspect-square items-center justify-center">
