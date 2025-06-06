@@ -1,14 +1,42 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import background from '../assets/background.svg';
+import astroLogo from "../assets/astro.svg";
+import background from "../assets/background.svg";
+import header_img_blue_blau from "../assets/header_img_blue_blau.png";
+import { getImage } from "astro:assets";
 import "../styles/global.css";
+
+console.log(header_img_blue_blau)
+
+const optimizedHeaderImage = await getImage({
+  src: header_img_blue_blau,
+  format: "webp"
+});
 ---
-<div class="text-[1.3rem]
-            m-2
+
+<div
+  class="
+  relative 
             leading-[2rem]
-            pb-10
-            text-purple-900
-            shadow-purple-400
-            hover:bg-amber-100">
-	<h1>blue blau katze auf bartlett strasse, san francisco</h1>
+            hover:bg-amber-100
+            bg-size-[75%]
+            md:bg-contain
+            bg-center
+            bg-no-repeat
+            min-h-[190px]
+            "
+  style={`background-image: url(${optimizedHeaderImage.src});`}
+>
+    <h1 class="absolute 
+    flex flex-col
+    items-end
+    right-3 
+    font-semibold
+    font-mono
+    text-center text-zinc-40">
+        <span>blue</span> 
+        <span>blau</span> 
+        <span>katze</span>
+        <span class="text-lime-500 font-bold text-2xl">Mission, SF,
+            <span class="text-red-700">CA</span></span>
+    </h1>
 </div>

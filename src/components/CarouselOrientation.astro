@@ -12,8 +12,8 @@ const catImages = await Promise.all(
   images.map(async (imageModule, index) => {
     const optimizedImage = await getImage({
       src: imageModule.default,
-      width: 300,
-      height: 300,
+      width: 500,
+      height: 500,
       format: 'webp' // optional: convert to webp for better performance
     });
     
@@ -25,6 +25,6 @@ const catImages = await Promise.all(
 );
 ---
 
-<div class="flex justify-center items-center">
+<div class="md:flex md:justify-center md:items-center">
     <CarouselOrientationDemo catImages={catImages} client:only="react" />
 </div>

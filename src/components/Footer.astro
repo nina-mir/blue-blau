@@ -1,0 +1,28 @@
+---
+import footer_img_blue_blau from "../assets/footer_blue_blau_2.png";
+import { getImage } from "astro:assets";
+import "../styles/global.css";
+
+console.log(footer_img_blue_blau)
+
+const optimizedHeaderImage = await getImage({
+  src: footer_img_blue_blau,
+  format: "webp"
+});
+---
+
+<div
+  class="
+  relative 
+            hover:bg-amber-100
+            bg-size-[40%]
+            md:bg-contain
+            bg-center
+            bg-repeat
+            min-h-[190px]
+            opacity-90
+            "
+  style={`background-image: url(${optimizedHeaderImage.src});`}
+>
+    
+</div>

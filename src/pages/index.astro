@@ -1,9 +1,12 @@
 ---
 import Welcome from '../components/Welcome.astro';
+import Footer from '../components/Footer.astro'
 import Layout from '../layouts/Layout.astro';
-import { Button } from "@/components/ui/button";
-import Carousel  from "@/components/Carousel.astro";
+// import { Button } from "@/components/ui/button";
+// import Carousel  from "@/components/Carousel.astro";
 import CarouselOrientationDemo  from "@/components/CarouselOrientation.astro";
+import "../styles/global.css";
+
 
 
 
@@ -13,7 +16,9 @@ import CarouselOrientationDemo  from "@/components/CarouselOrientation.astro";
 
 <Layout>
 	<Welcome />
-	<Button>shadcn rules</Button>
+	<!-- <Button>shadcn rules</Button> -->
 	<!-- <Carousel /> -->
 	<CarouselOrientationDemo/>
+	<Footer/>
+
 </Layout>

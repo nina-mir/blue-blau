@@ -11,5 +11,7 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()]
-  }
+  }, 
+  site: 'https://nina-mir.github.io',
+  base: 'my-repo',
 });
