@@ -13,5 +13,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   }, 
   site: 'https://nina-mir.github.io',
-  base: 'my-repo',
+  base: 'blue-blau',
 });
