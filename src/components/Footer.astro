@@ -1,4 +1,6 @@
 ---
+import { GitHubLogoIcon } from "@radix-ui/react-icons"
+
 import footer_img_blue_blau from "../assets/footer_blue_blau_2.png";
 import { getImage } from "astro:assets";
 import "../styles/global.css";
@@ -24,5 +26,12 @@ const optimizedHeaderImage = await getImage({
             "
   style={`background-image: url(${optimizedHeaderImage.src});`}
 >
-    
+<div class="bg-blue-100/90 absolute bottom-[3rem] ml-[1rem] rounded-3xl flex justify-center items-center">
+  <a href="https://github.com/nina-mir/blue-blau">
+    <GitHubLogoIcon width={"2rem"} height={"2rem"}/>
+  </a>
+  <span>&nbsp;by nina ruth mir 👷🏽‍♀️💄✂️</span>
+
+</div>    
+
 </div>

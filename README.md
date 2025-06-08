@@ -1,4 +1,4 @@
-# Blue Blau Katzen
+# Blue Blau Katze
 <hr>
 <img src="public/face_only_2.png" width="300" align="left">
 
@@ -11,7 +11,7 @@ While cat-sitting Blue, I made this little static website to learn Astro.
 
 <hr>
 
-Blue is a house-only kitty who is very playful and quiet and sensisitve. If you are spending the day with him in the living room of his parent, make sure you are only playing modern jazz at low volume and definitely do not cry or shed any tears thinking about the awful friends you have or the awful fate that you have read about or the awful desire to continue to do nothing because there is nothin in this world that can make up for the loss of everything and the worst is the realization that nothing you could do or imagine could even heal you. There is no healing here or there. There is simply forgetting eveything and smiling like a big farmwork horse that can make the sky less blurry and bring peace to your heart at night or in the mornings when you wake up in the shaded room in the back of this wind-begotten apartment with mirrors eveywhere. Blue thinks the world s perfect. Blue knows it is perfekt. Blue blaue misses his parents and friends and all. You wake up and pick Blue up and walk around the house with him and he is such a good boy. You give him kisses and lament that you have instagram installed on your phone. 
+Blau die Katze is a house-only kitty who is very playful, quiet and sensisitve. If you are spending the day with him in the living room of his parent, make sure you are only playing modern jazz at low volume and definitely do not cry thinking about the awful friends you have collected or the awful fate that you have read about or the awfully righteous desires to continue to do nothing because there is nothin in this world that can make up for the loss of everything and the worst is the realization that nothing you could do or imagine could even heal you. There is no healing here or then. There is simply forgetting eveything and smiling like a big farm horse that can make the sky less blurry and bring peace to your heart at night or in the mornings when you wake up in the shaded room in the back of this wind-begotten apartment with mirrors eveywhere. Blue Blau Katze thinks the world is perfect. He is a romantic. He is an artist. An established one. Blue Blaue misses his parent and friends and all. You wake up and pick Blue up and walk around the house with him and he is such a good boy. You give him kisses and lament that you have instagram installed on your phone. You don't know where he likes to be kissed. You are aware of boundaries but you don't know them. You are green. You are stone. You are obssessed. Morning are terrible except the last one. The last morning is stellar, active and full of hope.  
 
 
 
